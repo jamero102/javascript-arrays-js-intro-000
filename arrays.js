@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, x){
 }
 
 function addElementToEndOfArray(z,x){
-  const z = [...chocolateBars, x];
+  const = [...chocolateBars, x];
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, x){
