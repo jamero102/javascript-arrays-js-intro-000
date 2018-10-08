@@ -15,8 +15,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString) {
   return chocolateBars;
 }
 
-function addElementToEndOfArray(Array, Element){
-  var chocolateBars2 = [...chocolateBars, 'Element'];
+function addElementToEndOfArray(chocolateBars, candyString){
+  return [...chocolateBars, candyString];
 }
 
 function destructivelyAddElementToEndOfArray(){
