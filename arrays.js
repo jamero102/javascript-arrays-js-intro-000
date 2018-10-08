@@ -8,6 +8,6 @@ function addElementToBeginningOfArray(){
   var newChoc = ['milky way', ...chocolateBars];
 }
 
-function destructivelyAddElementToBeginningOfArray(x,y){
-  chocolateBars.unshift('milky way')
+function destructivelyAddElementToBeginningOfArray('x',chocolateBars){
+  chocolateBars.unshift('x')
 }
