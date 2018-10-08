@@ -7,3 +7,6 @@ var chocolateBars = [
 function addElementToBeginningOfArray(){
 var chocolateBars2 = ["milky way", ...chocolateBars]
 }
+function destructivelyAddElementToBeginningOfArray(){
+  var chocolateBars = ["milky way", ...chocolateBars]
+}
