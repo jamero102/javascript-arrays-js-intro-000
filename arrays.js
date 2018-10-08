@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, x){
 }
 
 function addElementToEndOfArray(chocolateBars, x){
-  == [...chocolateBars, x];
+  var b = [...chocolateBars, x];
 }
 
 function destructivelyAddElementToEndOfArray(){
