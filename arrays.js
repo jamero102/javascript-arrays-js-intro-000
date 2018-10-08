@@ -5,12 +5,12 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToBeginningOfArray(y, x){
+function addElementToBeginningOfArray(a, x){
   const a = ['x', ...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, x){
-  chocolateBars.unshift(x)
+  chocolateBars.unshift('x');
 }
 
 function addElementToEndOfArray(){
@@ -18,5 +18,5 @@ function addElementToEndOfArray(){
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, x){
-  chocolateBars.push(x)
+  chocolateBars.push('x');
 }
