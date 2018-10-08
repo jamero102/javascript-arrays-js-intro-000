@@ -13,8 +13,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, x){
   chocolateBars.unshift(x);
 }
 
-function addElementToEndOfArray(){
-  === [...chocolateBars, x];
+function addElementToEndOfArray(chocolateBars, x){
+  == [...chocolateBars, x];
 }
 
 function destructivelyAddElementToEndOfArray(){
