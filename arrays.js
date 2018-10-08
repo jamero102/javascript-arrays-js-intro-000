@@ -6,7 +6,7 @@ var chocolateBars = [
 ]
 var MyArray = [1]
 
-function addElementToBeginningOfArray(Element, Array){
+function addElementToBeginningOfArray(Array, Element){
    var array = ['foo', ...MyArray];
 }
 
