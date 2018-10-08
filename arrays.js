@@ -13,10 +13,10 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, x){
   chocolateBars.unshift(x);
 }
 
-function addElementToEndOfArray(z, x){
-  const z = [...chocolateBars, x];
+function addElementToEndOfArray(){
+  === [...chocolateBars, x];
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBars, x){
+function destructivelyAddElementToEndOfArray(){
   chocolateBars.push(x);
 }
